@@ -33,18 +33,33 @@
 
 .question-card {
   width: 500px;
-
+  max-width: 90%;
+  
   background-color: white;
 
   padding: 40px;
-
   border-radius: 20px;
+
+  box-sizing: border-box;
 
   box-shadow: 0 8px 20px rgba(0,0,0,0.08);
 
   text-align: center;
 }
 
+@media (max-width: 600px) {
+
+  .question-card {
+    width: 100%;
+    padding: 30px 20px;
+  }
+
+  .question-card h2 {
+    font-size: 20px;
+    line-height: 1.5;
+  }
+
+}
 .question-card h2 {
   font-size: 22px;
   line-height: 1.6;
