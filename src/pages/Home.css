@@ -1,0 +1,170 @@
+.home-container {
+    min-height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #faf8f3;
+
+    font-family: "Noto Sans KR", sans-serif;
+
+    padding: 40px 20px;
+}
+
+
+.home-card {
+
+    width: 520px;
+
+    background-color: white;
+
+    padding: 60px 40px;
+
+    border-radius: 24px;
+
+    text-align: center;
+
+    box-shadow: 
+    0 10px 30px rgba(0,0,0,0.08);
+
+}
+
+
+/* 작은 제목 */
+
+.home-label {
+
+    color: #8a7ca8;
+
+    font-size: 13px;
+
+    letter-spacing: 3px;
+
+    margin-bottom: 25px;
+
+}
+
+
+/* 동아리 이름 */
+
+.club-name {
+
+    color: #888;
+
+    font-size: 15px;
+
+    margin-bottom: 35px;
+
+}
+
+
+/* 에뚜알 메인 제목 */
+
+.main-title {
+    font-size: 70px;
+    font-weight: 700;
+    color: #5c3c8a;
+    letter-spacing: 3px;
+    margin-bottom: 45px;
+    font-family: "Playfair Display", serif;
+}
+
+.sub-title {
+    font-size: 18px;
+    color: #8a7ca8;
+    margin-bottom: 50px;
+    letter-spacing: 2px;
+}
+
+.main-title span {
+    font-size: 24px;
+    color: #8a7ca8;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+
+
+/* 질문 문구 */
+
+.home-question {
+
+    font-size: 22px;
+
+    line-height: 1.5;
+
+    color: #333;
+
+    font-weight: 600;
+
+    margin-bottom: 10px;
+
+    white-space: nowrap;
+
+}
+
+
+/* 설명 */
+
+.home-description {
+
+    color: #666;
+
+    line-height: 1.8;
+
+    font-size: 15px;
+
+    margin-bottom: 30px;
+
+}
+
+
+/* 시작 버튼 */
+
+.start-button {
+
+    width: 85%;
+
+    padding: 18px;
+
+    border: none;
+
+    border-radius: 16px;
+
+    background-color: #6b5b95;
+
+    color: white;
+
+    font-size: 18px;
+
+    font-weight: 600;
+
+    cursor: pointer;
+
+    transition: 0.3s;
+
+}
+
+
+.start-button:hover {
+
+    background-color: #59477f;
+
+    transform: translateY(-3px);
+
+}
+
+
+/* 인스타그램 */
+
+.instagram {
+
+    margin-top: 25px;
+
+    color: #bbb;
+
+    font-size: 14px;
+
+    letter-spacing: 1px;
+
+}

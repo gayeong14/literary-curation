@@ -16,12 +16,16 @@
 
 .result-header h1 {
   font-size: 36px;
+  font-weight: 700;
   margin-bottom: 25px;
 }
 
 
 .result-header h2 {
   font-size: 28px;
+  font-weight: 700;
+  color: #5c3c8a;
+  line-height: 1.4;
   margin-bottom: 15px;
 }
 

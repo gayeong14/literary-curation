@@ -17,7 +17,8 @@
 
 .test-container h1 {
   font-size: 36px;
-
+  font-weight: 700;
+  color: #5c3c8a;
   margin-bottom: 15px;
 }
 

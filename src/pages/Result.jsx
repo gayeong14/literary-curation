@@ -28,7 +28,9 @@ function Result() {
 
                 <h1>당신의 문학 유형</h1>
 
-                <h2>{result.title}</h2>
+                <h2 className="result-title">
+                    {result.title}
+                </h2>
 
                 <p>
                     {result.description}
@@ -36,18 +38,18 @@ function Result() {
 
             </div>
             <h3 className="recommend-title">
-    추천 작품
-</h3>
+                추천 작품
+            </h3>
 
             <div className="work-list">
                 {result.works.map((work) => (
                     <div className="work-card" key={work.title}>
 
                         <img
-        src={work.image}
-        alt={work.title}
-        className="book-cover"
-    />
+                            src={work.image}
+                            alt={work.title}
+                            className="book-cover"
+                        />
 
                         <div className="work-info">
                             <h4>{work.title}</h4>
