@@ -1,0 +1,121 @@
+.test-container {
+  min-height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  padding: 60px 20px;
+
+  background-color: #faf8f3;
+
+  font-family: "Noto Sans KR", sans-serif;
+}
+
+
+/* 제목 */
+
+.test-container h1 {
+  font-size: 36px;
+
+  margin-bottom: 15px;
+}
+
+
+.test-container > p {
+  color: #666;
+
+  margin-bottom: 40px;
+}
+
+/* 질문 카드 */
+
+.question-card {
+  width: 500px;
+
+  background-color: white;
+
+  padding: 40px;
+
+  border-radius: 20px;
+
+  box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+
+  text-align: center;
+}
+
+.question-card h2 {
+  font-size: 22px;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+/* 진행 표시 */
+
+.progress {
+  color: #8a7ca8;
+
+  font-size: 14px;
+
+  margin-bottom: 20px;
+
+  font-weight: bold;
+}
+
+/* 기본 선택지 버튼 디자인 */
+.option-button {
+  width: 100%;
+  padding: 18px 24px;
+  margin-bottom: 12px;
+  background-color: #ffffff; /* 흰색 카드 느낌 */
+  border: 1.5px solid #e8e3ed; /* 연한 회보라색 테두리로 부드러운 느낌 */
+  border-radius: 16px; /* 부드러운 둥근 모서리 */
+  color: #4a4a4a; /* 너무 까만색보다 짙은 회색이 글 읽기에 편안합니다 */
+  font-size: 16px;
+  text-align: center;
+  cursor: pointer;
+  
+  /* 핵심! 변화가 일어날 때 0.3초 동안 부드럽게(ease) 변하도록 설정합니다 */
+  transition: all 0.3s ease; 
+}
+
+/* 마우스를 올렸을 때 (Hover) */
+.option-button:hover {
+  border-color: #8b6bba; /* 보라색 계열 포인트 컬러 */
+  background-color: #faf8fc; /* 아주 연한 보라색 배경으로 스며들듯 변경 */
+  color: #5c3c8a; /* 글씨 색상도 살짝 짙은 보라색으로 강조 */
+  box-shadow: 0 4px 12px rgba(139, 107, 186, 0.15); /* 버튼 아래에 부드러운 그림자 생성 */
+}
+
+/* 마우스로 클릭하는 순간 (Active) */
+.option-button:active {
+  /* 버튼 크기를 원래의 97%로 살짝 줄여서 실제로 누르는 듯한 타격감을 줍니다 */
+  transform: scale(0.97); 
+}
+
+/* 질문 전환 애니메이션 */
+
+.question-card {
+  animation-duration: 0.4s;
+}
+
+
+.fade-in {
+  animation: fadeIn 0.4s ease;
+}
+
+
+@keyframes fadeIn {
+
+  from {
+    opacity: 0;
+    transform: translateY(15px);
+  }
+
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+}

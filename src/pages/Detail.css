@@ -1,0 +1,74 @@
+.detail-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  font-family: "Noto Sans KR", sans-serif;
+}
+
+
+/* 책 정보 영역 */
+.detail-header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+
+.detail-header img {
+  width: 200px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+}
+
+
+.detail-header h1 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+
+.detail-header h3 {
+  font-size: 18px;
+  color: #666;
+  font-weight: normal;
+}
+
+
+/* 작품 설명 영역 */
+.detail-section {
+  margin-bottom: 30px;
+  padding: 25px;
+  background-color: #f8f8f8;
+  border-radius: 15px;
+}
+
+
+.detail-section h2 {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+
+.detail-section p {
+  line-height: 1.7;
+  color: #444;
+}
+
+
+/* 질문 박스 */
+.question-box {
+  margin-top: 30px;
+  padding: 25px;
+  background-color: #fff4d6;
+  border-radius: 15px;
+}
+
+
+.question-box h2 {
+  margin-bottom: 15px;
+}
+
+
+.question-box p {
+  font-size: 18px;
+  line-height: 1.6;
+}
