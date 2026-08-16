@@ -7,24 +7,28 @@ import christmas from "../assets/images/literature/8christmas.jpg";
 import afterSun from "../assets/images/literature/after-sun.jpg";
 import kevin from "../assets/images/literature/kevin.jpg";
 import catcher from "../assets/images/literature/catcher.jpg";
+import aoi from "../assets/images/literature/aoi-garden.jpg";
+import tropical from "../assets/images/literature/tropical-night.jpg";
 
 const results = {
     thinker: {
         title: "삶과 인간에 대한 질문을 좋아하는 사색형 독자",
         description:
             "인간의 존재와 삶의 의미에 대해 생각하게 만드는 이야기에 끌리는 유형입니다.",
+
         works: [
             {
                 title: "《이반 일리치의 죽음》",
                 type: "book",
-                author: "레프 톨스토이",
+                author: "톨스토이",
                 keyword: "죽음을 통해 삶의 의미를 돌아보는 고전",
                 description:
                     "죽음을 앞둔 한 인간이 자신의 삶을 돌아보며 진정한 삶의 의미를 찾아가는 과정을 그린 작품입니다.",
                 question:
-                    "나는 지금 어떤 삶을 살아가고 있는가?",
+                    "왜 사람들은 살아있는 동안에는 진짜 중요한 것을 깨닫기 어려울까?",
                 image: ivan
             },
+
             {
                 title: "《맨 프롬 어스》",
                 type: "movie",
@@ -33,16 +37,17 @@ const results = {
                 description:
                     "한 인간의 특별한 경험을 통해 시간, 역사, 그리고 인간 존재에 대한 질문을 던지는 작품입니다.",
                 question:
-                    "만약 인간의 시간이 무한하다면 삶의 의미는 어떻게 달라질까?",
+                    "존 올드맨의 이야기를 과연 어디까지 믿을 수 있을까?",
                 image: manEarth
             }
         ]
     },
 
     explorer: {
-        title: "새로운 세계와 가능성을 탐험하는 상상형 독자",
+        title: "낯선 세계를 탐험하는 탐험형 독자",
         description:
-            "현실을 넘어 새로운 세계와 아이디어를 만나는 이야기에 끌리는 유형입니다.",
+            "현실을 넘어 새로운 세계와 가능성, 낯선 존재를 만나는 이야기에 끌리는 유형입니다.",
+
         works: [
             {
                 title: "《마지막 증명》",
@@ -52,9 +57,10 @@ const results = {
                 description:
                     "거대한 위기 속에서 인간이 어떤 선택을 하고 서로를 어떻게 지켜내는지 보여주는 SF 작품입니다.",
                 question:
-                    "극한의 상황에서 인간을 움직이는 것은 무엇일까?",
+                    "극한의 상황에서 우리가 끝까지 지키고 싶은 것은 무엇일까?",
                 image: lastProof
             },
+
             {
                 title: "《맨 프롬 어스》",
                 type: "movie",
@@ -63,8 +69,32 @@ const results = {
                 description:
                     "한 인물의 특별한 이야기를 통해 시간, 역사, 그리고 인간 존재에 대한 새로운 관점을 제시하는 작품입니다.",
                 question:
-                    "만약 인간의 시간이 무한하다면 삶의 의미는 어떻게 달라질까?",
+                    "존 올드맨의 이야기를 과연 어디까지 믿을 수 있을까?",
                 image: manEarth
+            },
+
+            {
+                title: "《아오이가든》",
+                type: "book",
+                author: "편혜영",
+                keyword: "낯선 세계 속에서 마주하는 인간다움",
+                description:
+                    "낯선 공간과 극단적인 상황 속에서 살아가는 인간들의 모습을 통해 인간다움과 존재의 의미를 생각하게 만드는 작품입니다.",
+                question:
+                    "극단적인 상황 속에서 인간을 인간답게 만드는 최소한의 조건은 무엇일까?",
+                image: aoi
+            },
+
+            {
+                title: "《트로피컬 나이트》",
+                type: "book",
+                author: "조예은",
+                keyword: "낯선 존재와 마주하며 바라보는 삶과 죽음",
+                description:
+                    "익숙한 현실에 낯선 존재가 등장하는 순간을 통해 외로움과 관계, 삶과 죽음에 대한 질문을 던지는 작품입니다.",
+                question:
+                    "인간다운 죽음이란 무엇일까?",
+                image: tropical
             }
         ]
     },
@@ -73,6 +103,7 @@ const results = {
         title: "관계와 감정의 흐름에 집중하는 공감형 독자",
         description:
             "인물 사이의 관계와 감정 변화를 따라가는 이야기에 끌리는 유형입니다.",
+
         works: [
             {
                 title: "《8월의 크리스마스》",
@@ -82,9 +113,10 @@ const results = {
                 description:
                     "삶의 마지막 순간에도 일상의 아름다움과 관계의 소중함을 담아낸 한국 영화입니다.",
                 question:
-                    "평범한 순간이 특별한 기억이 되는 이유는 무엇일까?",
+                    "만약 내가 정원이라면 그 순간 어떻게 했을까?",
                 image: christmas
             },
+
             {
                 title: "《패스트 라이브즈》",
                 type: "movie",
@@ -93,19 +125,19 @@ const results = {
                 description:
                     "서로 다른 삶을 살아온 두 사람이 다시 만나며 인연과 선택, 시간의 의미를 돌아보게 만드는 작품입니다.",
                 question:
-                    "지나간 인연은 우리의 삶에 어떤 의미로 남을까?",
+                    "영화에서 말하는 인연이 존재한다고 생각하나요?",
                 image: pastLives
             },
             {
-                title: "《마지막 증명》",
-                type: "book",
-                author: "이하진",
-                keyword: "끝까지 서로를 향하는 마음과 선택에 대한 이야기",
+                title: "《애프터썬》",
+                type: "movie",
+                director: "샬롯 웰스",
+                keyword: "기억 속에 남은 가족과 지나간 시간",
                 description:
-                    "위기 속에서 인간이 서로를 믿고 지켜가는 과정을 통해 관계의 의미를 보여주는 작품입니다.",
+                    "어린 시절 아버지와 함께했던 여행을 돌아보며 기억과 관계의 의미를 섬세하게 그려낸 영화입니다.",
                 question:
-                    "어려운 상황 속에서도 지키고 싶은 관계는 무엇일까?",
-                image: lastProof
+                    "시간이 지난 뒤에야 비로소 이해하게 되는 사람이 있다면, 그 사람은 누구일까?",
+                image: afterSun
             },
             {
                 title: "《타오르는 여인의 초상》",
@@ -125,18 +157,8 @@ const results = {
         title: "인간의 내면을 탐구하는 심리형 독자",
         description:
             "인물의 선택과 내면 변화를 깊게 바라보는 유형입니다.",
+
         works: [
-            {
-                title: "《케빈에 대하여》",
-                type: "movie",
-                director: "린 램지",
-                keyword: "가족과 인간 내면의 복잡한 심리",
-                description:
-                    "한 가족의 관계를 통해 사랑, 책임, 선택에 대한 불편한 질문을 던지는 작품입니다.",
-                question:
-                    "인간의 행동을 이해한다는 것은 무엇일까?",
-                image: kevin
-            },
             {
                 title: "《호밀밭의 파수꾼》",
                 type: "book",
@@ -158,6 +180,17 @@ const results = {
                 question:
                     "나는 지금 어떤 삶을 살아가고 있는가?",
                 image: ivan
+            },
+                        {
+                title: "《케빈에 대하여》",
+                type: "movie",
+                director: "린 램지",
+                keyword: "가족과 인간 내면의 복잡한 심리",
+                description:
+                    "한 가족의 관계를 통해 사랑, 책임, 선택에 대한 불편한 질문을 던지는 작품입니다.",
+                question:
+                    "케빈의 행동을 이해하는 것과 그의 행동을 용서하는 것은 같은 일일까?",
+                image: kevin
             }
         ]
     }
