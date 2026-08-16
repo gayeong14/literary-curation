@@ -54,8 +54,10 @@ function Result() {
                         <div className="work-info">
                             <h4>{work.title}</h4>
 
-                            <p className="author">
-                                {work.author}
+                            <p className="creator">
+                                {work.type === "book"
+                                    ? work.author
+                                    : work.director}
                             </p>
                         </div>
 

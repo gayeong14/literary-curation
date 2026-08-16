@@ -1,4 +1,3 @@
-import demian from "../assets/images/literature/demian.jpg";
 import ivan from "../assets/images/literature/ivan.jpg";
 import manEarth from "../assets/images/literature/man-earth.jpg";
 import lastProof from "../assets/images/literature/last-proof.jpg";
@@ -17,6 +16,7 @@ const results = {
         works: [
             {
                 title: "《이반 일리치의 죽음》",
+                type: "book",
                 author: "레프 톨스토이",
                 keyword: "죽음을 통해 삶의 의미를 돌아보는 고전",
                 description:
@@ -26,18 +26,9 @@ const results = {
                 image: ivan
             },
             {
-                title: "《데미안》",
-                author: "헤르만 헤세",
-                keyword: "자아와 성장에 대한 내면 탐구",
-                description:
-                    "한 인물이 사회의 기준을 넘어 자신만의 정체성을 찾아가는 성장 이야기입니다.",
-                question:
-                    "진정한 나 자신으로 살아간다는 것은 무엇일까?",
-                image: demian
-            },
-            {
                 title: "《맨 프롬 어스》",
-                author: "제롬 빅스비",
+                type: "movie",
+                director: "리처드 쉔크만",
                 keyword: "인간 존재와 시간에 대한 SF적 질문",
                 description:
                     "한 인간의 특별한 경험을 통해 시간, 역사, 그리고 인간 존재에 대한 질문을 던지는 작품입니다.",
@@ -55,6 +46,7 @@ const results = {
         works: [
             {
                 title: "《마지막 증명》",
+                type: "book",
                 author: "이하진",
                 keyword: "재난 속에서 펼쳐지는 SF적 상상과 인간의 선택",
                 description:
@@ -65,7 +57,8 @@ const results = {
             },
             {
                 title: "《맨 프롬 어스》",
-                author: "제롬 빅스비",
+                type: "movie",
+                director: "리처드 쉔크만",
                 keyword: "시간과 인간 존재에 대한 새로운 시선",
                 description:
                     "한 인물의 특별한 이야기를 통해 시간, 역사, 그리고 인간 존재에 대한 새로운 관점을 제시하는 작품입니다.",
@@ -83,7 +76,8 @@ const results = {
         works: [
             {
                 title: "《8월의 크리스마스》",
-                author: "허진호",
+                type: "movie",
+                director: "허진호",
                 keyword: "평범한 순간 속에 남는 기억과 사랑",
                 description:
                     "삶의 마지막 순간에도 일상의 아름다움과 관계의 소중함을 담아낸 한국 영화입니다.",
@@ -93,7 +87,8 @@ const results = {
             },
             {
                 title: "《패스트 라이브즈》",
-                author: "셀린 송",
+                type: "movie",
+                director: "셀린 송",
                 keyword: "시간과 인연, 지나간 관계에 대한 이야기",
                 description:
                     "서로 다른 삶을 살아온 두 사람이 다시 만나며 인연과 선택, 시간의 의미를 돌아보게 만드는 작품입니다.",
@@ -103,6 +98,7 @@ const results = {
             },
             {
                 title: "《마지막 증명》",
+                type: "book",
                 author: "이하진",
                 keyword: "끝까지 서로를 향하는 마음과 선택에 대한 이야기",
                 description:
@@ -113,7 +109,8 @@ const results = {
             },
             {
                 title: "《타오르는 여인의 초상》",
-                author: "셀린 시아마",
+                type: "movie",
+                director: "셀린 시아마",
                 keyword: "사랑, 기억, 그리고 서로를 바라보는 시선",
                 description:
                     "두 인물의 관계를 통해 사랑과 예술, 기억이 남기는 의미를 섬세하게 그린 작품입니다.",
@@ -130,18 +127,9 @@ const results = {
             "인물의 선택과 내면 변화를 깊게 바라보는 유형입니다.",
         works: [
             {
-                title: "《데미안》",
-                author: "헤르만 헤세",
-                keyword: "자아 발견과 내면의 성장에 대한 이야기",
-                description:
-                    "사회가 정한 기준을 넘어 자신의 본질과 정체성을 찾아가는 한 인물의 성장 이야기입니다.",
-                question:
-                    "진정한 나 자신으로 살아간다는 것은 무엇일까?",
-                image: demian
-            },
-            {
                 title: "《케빈에 대하여》",
-                author: "라이오넬 슈라이버",
+                type: "movie",
+                director: "린 램지",
                 keyword: "가족과 인간 내면의 복잡한 심리",
                 description:
                     "한 가족의 관계를 통해 사랑, 책임, 선택에 대한 불편한 질문을 던지는 작품입니다.",
@@ -151,6 +139,7 @@ const results = {
             },
             {
                 title: "《호밀밭의 파수꾼》",
+                type: "book",
                 author: "J. D. 샐린저",
                 keyword: "성장 과정에서 마주하는 방황과 내면의 갈등",
                 description:
@@ -161,7 +150,8 @@ const results = {
             },
             {
                 title: "《이반 일리치의 죽음》",
-                author: "레프 톨스토이",
+                type: "book",
+                author: "톨스토이",
                 keyword: "죽음 앞에서 다시 바라보는 삶의 의미",
                 description:
                     "죽음을 마주한 인간이 자신의 삶을 되돌아보며 진정한 의미를 찾는 과정을 담은 작품입니다.",
